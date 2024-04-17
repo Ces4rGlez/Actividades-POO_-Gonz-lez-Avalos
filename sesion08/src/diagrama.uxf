@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>180</x><y>110</y><w>180</w><h>100</h></coordinates><panel_attributes>bg=pink
+BloquesInicializacion
+--
++main(args:String[]):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>290</y><w>230</w><h>230</h></coordinates><panel_attributes>
+Alumno
+
+--
+-curso: String
+-sesion:byte
+-objetivo:String
+--
++getCurso():String
++getSesion():byte
++getObjetivo():String
+
++setCurso(String):void
++setSesion(byte):void
++setObjetivo(String):void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>200</y><w>50</w><h>100</h></coordinates><panel_attributes>lt=&lt;..
+usa
+</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>390</x><y>250</y><w>220</w><h>170</h></coordinates><panel_attributes>
+Automovil
+
+--
+-marca:String
+-modelo:String
+-anioFabricacion:int
+-kilometraje:int
+--
++Automovil(String, String, Int)
++hashCode():Int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>80</y><w>180</w><h>100</h></coordinates><panel_attributes>bg=red
+Fabrica
+--
++main(args:String[]):void
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>490</x><y>180</y><w>50</w><h>90</h></coordinates><panel_attributes>lt=&lt;..
+usa
+</panel_attributes><additional_attributes>10;70;10;10</additional_attributes></element></diagram>

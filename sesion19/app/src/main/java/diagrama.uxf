@@ -1,0 +1,10 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>120</x><y>60</y><w>210</w><h>100</h></coordinates><panel_attributes>Gobierno
+--
+-gobierno: Gobierno
+--
+&lt;&lt;Constructor&gt;&gt;Gobierno()
+_+getGobierno():Gobierno_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>240</y><w>160</w><h>70</h></coordinates><panel_attributes>Adulto
+--
+--
+main(String[]):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>80</y><w>210</w><h>50</h></coordinates><panel_attributes>lt=&lt;&lt;-
+a rose is a rose</panel_attributes><additional_attributes>20;10;110;10;110;30;10;30</additional_attributes></element></diagram>

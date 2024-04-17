@@ -1,0 +1,35 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>260</x><y>50</y><w>180</w><h>100</h></coordinates><panel_attributes>Archivo
+--
+
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>280</x><y>210</y><w>220</w><h>160</h></coordinates><panel_attributes>C:\temp\cursos
+--
+bg=orange</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>320</x><y>240</y><w>130</w><h>90</h></coordinates><panel_attributes>//Controll over the text of the whole element..
+_umletcode=
+var className = "Archivo"; 
+var members = ["-Cursos: String"];
+
+var publicAttributesDrawConfig = {fg: '#006400'}
+var privateAttributesDrawConfig = {fg: '#8b0000'}
+
+drawText(className, width/2, 40, center);
+drawLine(0, 50, width, 50);
+var membersHeight=75;
+for (var i=0;i&lt;members.length;i++) {
+   if(members[i][0]=='+'){	
+		drawText(members[i], width/2, membersHeight, center, publicAttributesDrawConfig );
+   } else if(members[i][0]=='-') {
+   	drawText(members[i], width/2, membersHeight, center, privateAttributesDrawConfig);
+   }
+	membersHeight+=30;
+}
+
+// draw book
+drawArc(10,10,20,10,0,180,true)  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawArc(30,10,20,10,0,180,true)  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawLine(30, 13, 30, 40)
+drawArc(30,37,20,10,0,180,false, {bg: 'black'})  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawArc(10,37,20,10,0,180,false, {bg: 'black'})  //Parameters (x, y, width, height, start, extent, open, drawConfig?)
+drawLine(10, 13, 10, 40)
+drawLine(50, 13, 50, 40)
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>150</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>

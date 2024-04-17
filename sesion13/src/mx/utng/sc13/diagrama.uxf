@@ -1,0 +1,30 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>50</x><y>100</y><w>240</w><h>110</h></coordinates><panel_attributes>/Persona/
+bg=red
+--
+--nombre: String
+-apellidos: String
+--
+&lt;&lt;Constructor&gt;&gt; + Persona(String, String)
++mostrarDatos():void
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>290</y><w>310</w><h>90</h></coordinates><panel_attributes>Profesor
+--
+-IdProfesor: String
+--
+&lt;&lt;Constructor&gt;&gt; + Profesor(String, String, String)
+&lt;&lt;Override&gt;&gt;+mostrarDatos():void
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>130</x><y>200</y><w>30</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>470</y><w>310</w><h>90</h></coordinates><panel_attributes>ProfesorInterino
+--
+-fechaTerminacion: LocalDate
+--
+&lt;&lt;Constructor&gt;&gt; + ProfesorInterino(String, String, String,LocalDate)
+&lt;&lt;Override&gt;&gt;+mostrarDatos():void
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>120</x><y>380</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>10</y><w>100</w><h>30</h></coordinates><panel_attributes>SimpleClass</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>290</y><w>190</w><h>70</h></coordinates><panel_attributes>Polimorfismo
+--
++main(String[]):void
+bg=cyan
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>140</y><w>160</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;160</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>320</y><w>140</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;120;10</additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>340</y><w>140</w><h>180</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;160;120;10</additional_attributes></element></diagram>

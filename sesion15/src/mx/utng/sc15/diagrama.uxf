@@ -1,0 +1,20 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>30</x><y>160</y><w>310</w><h>150</h></coordinates><panel_attributes>Persona
+--
+-nombre:String
+-apellido:String
+-esatatura:float
+--
+&lt;&lt;Constructor&gt;&gt;+Persona(String, String, float)
++getNombre():String
++getEstatura():float
+&lt;&lt;Override&gt;&gt;+compareto(Persona):Int
+bg=red
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLInterface</id><coordinates><x>440</x><y>200</y><w>140</w><h>100</h></coordinates><panel_attributes>Comparable
+--
+compareTo(Object):Int
+bg=cyan
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>330</x><y>210</y><w>190</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>170;10;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>290</x><y>400</y><w>190</w><h>70</h></coordinates><panel_attributes>PersonaTest
+--
+_+main(string[]):void_
+
+bg=green</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>320</x><y>300</y><w>30</w><h>120</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;100</additional_attributes></element></diagram>

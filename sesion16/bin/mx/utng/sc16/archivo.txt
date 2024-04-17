@@ -1,0 +1,6 @@
+Proyecti WEB de Java. 
+
+Este proyecto tiene como objetivo hacer un catalogo de zapatos
+Integrantes --> 
+°° Cesar
+°° Fernando
